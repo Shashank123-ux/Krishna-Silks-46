@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Silks | Every Saree Tells A Story</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Music functionality removed -->
+
+    <!-- Canvas for cinematic golden particles -->
+    <canvas id="luxury-particles"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar cinematic-reveal delay-3">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Krishna Silks</a>
+            <ul class="nav-links">
+                <li><a href="#story">Our Story</a></li>
+                <li><a href="#bridal">Bridal</a></li>
+                <li><a href="#collection">Collection</a></li>
+                <li><a href="#social">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Cinematic Hero Section -->
+    <header class="cinematic-hero" id="home">
+        <div class="hero-bg-wrapper">
+            <!-- Ken Burns background -->
+            <img src="assets/images/cinematic_hero.png" alt="Bridal Saree HD" class="ken-burns">
+            <div class="gold-overlay"></div>
+            <!-- Silk texture blended -->
+            <div class="silk-texture-overlay"></div>
+        </div>
+
+        <div class="hero-content text-center">
+            <div class="cinematic-reveal"><i class="fa-solid fa-crown"
+                    style="color: var(--accent-gold); font-size: 3rem; margin-bottom: 1rem;"></i></div>
+            <h1 class="shimmer-sweep title-reveal delay-1" style="text-transform: uppercase;">KRISHNA SILKS</h1>
+            <p class="hero-subline text-reveal delay-2">Elegance Woven with Tradition</p>
+
+            <div class="svg-divider divider-draw text-reveal delay-3">
+                <svg width="240" height="20" viewBox="0 0 240 20">
+                    <!-- Animated gold divider -->
+                    <path d="M0,10 L110,10 L120,3 L130,10 L240,10" class="draw-line" />
+                </svg>
+            </div>
+        </div>
+
+        <a href="#story" class="scroll-down cinematic-reveal delay-4">
+            <span class="scroll-text">Discover</span>
+            <div class="scroll-line"></div>
+        </a>
+    </header>
+
+    <!-- Luxury Storytelling Section -->
+    <section class="story-section parallax-section" id="story">
+        <div class="split-layout container">
+            <div class="story-image-col fade-up">
+                <div class="image-frame">
+                    <img src="assets/images/weaving_artisan.png" class="parallax-img" data-speed="0.1"
+                        alt="Artisan Weaving">
+                    <div class="frame-border"></div>
+                </div>
+            </div>
+            <div class="story-text-col">
+                <h2 class="section-title fade-up">Every Saree Tells a Story</h2>
+                <div class="story-lines">
+                    <p class="fade-up delay-1">Our sarees are not just fabrics,</p>
+                    <p class="fade-up delay-2">they are woven traditions,</p>
+                    <p class="fade-up delay-3">emotions, and timeless elegance</p>
+                    <p class="fade-up delay-4">crafted for your most precious moments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bridal Experience Carousel -->
+    <section class="bridal-experience" id="bridal">
+        <div class="container text-center">
+            <div class="section-header fade-up">
+                <h2 class="section-title">Crafted for Your Special Day</h2>
+                <p class="section-subtitle">A journey of beauty, heritage, and love</p>
+                <div class="svg-divider divider-draw m-auto">
+                    <svg width="100" height="15" viewBox="0 0 100 15">
+                        <path d="M0,7 L45,7 L50,1 L55,7 L100,7" class="draw-line" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="carousel fade-up delay-1">
+                <div class="carousel-track">
+                    <div class="slide"><img src="assets/images/bridal_prep.png" alt="Bridal Preparation"></div>
+                    <div class="slide"><img src="assets/images/saree_bridal.png" alt="Saree Details"></div>
+                    <div class="slide"><img src="assets/images/wedding_mandap.png" alt="Wedding Mandap"></div>
+                </div>
+                <div class="carousel-overlay">
+                    <p class="slide-caption">The Bridal Experience</p>
+                </div>
+            </div>
+
+            <button class="btn-royal m-top fade-up delay-2">Explore Bridal Collection <i
+                    class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <!-- Product Story Showcase -->
+    <section class="product-showcase" id="collection">
+        <div class="container">
+            <div class="section-header text-center fade-up">
+                <h2 class="section-title">The Heritage Collection</h2>
+                <div class="svg-divider divider-draw m-auto">
+                    <svg width="100" height="15" viewBox="0 0 100 15">
+                        <path d="M0,7 L45,7 L50,1 L55,7 L100,7" class="draw-line" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="luxury-grid">
+                <!-- Card 1 -->
+                <div class="story-card fade-up">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/saree_classic.png" alt="Classic Royal Blue Saree">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-border-glow"></div>
+                    <div class="card-content">
+                        <h3>Royal Kanjeevaram</h3>
+                        <p class="short-story">Inspired by royal heritage and ancient temple architecture.</p>
+                        <span class="view-details">View Details</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="story-card fade-up delay-1">
+                    <div class="card-img-wrapper">
+                        <img src="assets/images/saree_festive.png" alt="Festive Green Saree">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-border-glow"></div>
+                    <div class="card-content">
+                        <h3>Festive Elegance</h3>
+                        <p class="short-story">Vibrant hues dyed meticulously for grand celebrations.</p>
+                        <span class="view-details">View Details</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upgraded Social Section -->
+    <section class="high-end-social" id="social">
+        <div class="silk-texture-bg"></div>
+        <div class="container text-center relative z-index-1">
+            <h2 class="section-title fade-up">Scan to Explore Our World</h2>
+            <p class="section-subtitle fade-up delay-1">Join the Krishna Silks legacy online</p>
+
+            <div class="qr-showcase fade-up delay-2">
+                <!-- Glassmorphism Card -->
+                <div class="qr-glass-card">
+                    <div class="ripple-wrapper">
+                        <div class="ripple"></div>
+                        <div class="ripple delay-ripple"></div>
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://www.instagram.com/krishna_silks_46/&color=1E3A5F"
+                            alt="Scan Instagram QR" class="qr-code">
+                    </div>
+                    <div class="card-text">
+                        <i class="fa-brands fa-instagram icon-gold"></i>
+                        <span>@krishna_silks_46</span>
+                    </div>
+                </div>
+
+                <div class="qr-glass-card delay-3 fade-up">
+                    <div class="ripple-wrapper">
+                        <div class="ripple"></div>
+                        <div class="ripple delay-ripple"></div>
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=180x180&data=https://www.youtube.com/@Krishnasilks46&color=FF0000"
+                            alt="Scan Youtube QR" class="qr-code">
+                    </div>
+                    <div class="card-text">
+                        <i class="fa-brands fa-youtube icon-red"></i>
+                        <span>@Krishnasilks46</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="luxury-footer">
+        <div class="container text-center">
+            <div class="footer-logo">
+                <i class="fa-solid fa-crown"
+                    style="color: var(--accent-gold); font-size: 2rem; margin-bottom: 1rem;"></i>
+            </div>
+            <h3 class="shimmer-sweep">Krishna Silks</h3>
+            <p class="footer-note">Handcrafted Luxury. Premium Identity.</p>
+            <div class="footer-divider"></div>
+            <p class="copyright">&copy; 2026 Krishna Silks. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
